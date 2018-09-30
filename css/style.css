@@ -1470,6 +1470,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		background-position: center;
 	}
 
 	#cspio-page{
