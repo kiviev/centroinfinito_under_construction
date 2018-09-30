@@ -83,17 +83,13 @@
 			<div id="cspio-socialprofiles">
 				<a href="https://maps.google.com?daddr=40.312960,-3.859170" target="_blank"><i class="fa fa-map-marker fa-2x"></i></a>			
 				<a href="mailto:centroinfinito.staff@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			
-				<a href="https://es-es.facebook.com/Centro-Infinito-M%C3%B3stoles-158091931466883/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>			
-				<a class="phone hidden" href="https://api.whatsapp.com/send?phone=34630058019&text=Solicitud de información desde la web:" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>					
+				<a href="https://es-es.facebook.com/Centro-Infinito-M%C3%B3stoles-158091931466883/" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
 			</div>
 			<div id="cspio-socialprofiles">
-				<p><i class="fa fa-phone fa-2x"></i>   &nbsp<span id="tel">630 05 80 19</span></p>		
+				<p id="tel"><i class="fa fa-phone fa-2x"></i>&nbsp<span>630 05 80 19</span>&nbsp<i class="fa fa-whatsapp fa-2x"></i></p>		
 			</div>
 
-		<!-- 	<div id="cspio-credit">
-				<span>Created with <a target="_blank" href="https://www.comingsoonpage.com"><img id="aff" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/comingsoonpage.com-logo.png" alt="Created by ComingSoonPage.com"></a> Free download <a target="_blank" href="http://www.seedprod.com/free-coming-soon-page/" style="text-decoration:underline" alt="Get your free coming soon page.">here.</a>
-				</span>
-			</div> -->
+
 									    									    			    			    							    			     			    		
 		</div><!-- end of #cspio-content -->
 	</div>
@@ -106,11 +102,9 @@
 
 	<script>
 		$(document).ready(function(){
+			var phoneNum = '34630058019';
 			if(window.isMobile.any()){
-				$(".phone").removeClass('hidden');
-				$('#tel').html('<a href="tel:630058019" target="_blank">630 05 80 19</a>')
-			}else {
-				$(".phone").addClass('hidden');
+				$('#tel').html(`<a href="tel:${phoneNum}" target="_blank"><i class="fa fa-phone fa-2x"></a></i>&nbsp<span>630 05 80 19</span>&nbsp<a class="phone" href="https://api.whatsapp.com/send?phone=${phoneNum}&text=Solicitud de información desde la web:" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>`)
 			}
 		});
 		window.isMobile = {
