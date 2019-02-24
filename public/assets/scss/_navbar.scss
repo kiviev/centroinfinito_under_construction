@@ -236,6 +236,9 @@
   
   .slicknav_menu {
     display:block;
+    // display:inline-block;
+    // right: 0;
+    // position:absolute;
   }
   .slicknav_nav .active a{
     background: $preset;
