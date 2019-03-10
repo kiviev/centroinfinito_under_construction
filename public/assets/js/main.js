@@ -12,7 +12,6 @@
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 200) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
-            console.log('xxxx')
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
         }

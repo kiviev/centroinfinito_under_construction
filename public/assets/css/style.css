@@ -41,3 +41,20 @@
 .white{
     color:#fff;
 }
+
+section.myServices .icon img.massage-icon {
+    width: 140px;
+    height: 110px;
+}
+section.myServices .icon img {
+    width: 110px;
+    height: 110px;
+}
+
+.counter-section .counter .icon i{
+    font-size: 110px;
+}
+
+.phones{
+    color: #fff;
+}
