@@ -1,6 +1,6 @@
 maintenance.enable
 .sass-cache
-
+.well-known/
 
 # Created by https://www.gitignore.io/api/sass,linux,macos,windows,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=sass,linux,macos,windows,visualstudiocode

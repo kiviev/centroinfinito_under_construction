@@ -3,13 +3,22 @@ RewriteEngine On
 # MAINTENANCE-PAGE REDIRECT
 <IfModule mod_rewrite.c>
 	#RewriteEngine on
-	RewriteCond %{REMOTE_ADDR} !^92\.191\.17\.237
-	RewriteCond %{REMOTE_ADDR} !^84\.39\.177\.186
+#	RewriteCond %{REMOTE_ADDR} !^92\.191\.17\.237
+#	RewriteCond %{REMOTE_ADDR} !^84\.39\.177\.186
 	#RewriteCond %{REMOTE_ADDR} !^123\.456\.789\.000
-	RewriteCond %{DOCUMENT_ROOT}/maintenance.enable -f
-	RewriteCond %{REQUEST_URI} !/under_construction/index.html$ [NC]
-	RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif|css|js|ico) [NC]
-	RewriteRule .* /under_construction/index.html [R=302,L]
+
+#	RewriteCond %{DOCUMENT_ROOT}/maintenance.enable -f
+#	RewriteCond %{REQUEST_URI} !/under_construction/index.html$ [NC]
+
+
+	RewriteCond %{DOCUMENT_ROOT}/landing.enable -f
+	RewriteCond %{REQUEST_URI} !/landing/public/index.html$ [NC]
+
+
+	RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif|css|js|ico|svg) [NC]
+#	RewriteRule .* /under_construction/index.html [R=302,L]
+	
+	RewriteRule .* /landing/public/index.html [R=302,L]
 </IfModule>
 
 

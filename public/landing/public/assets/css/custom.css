@@ -1,0 +1,85 @@
+
+.miri-ui-kit-header.header-bg-2 {
+ 	background-image: url(../images/landing_fondo_landscape_2.jpg);
+}
+
+.count-card {
+	background-image: url(../images/landing_fondo_portrait_2.jpg);
+	background-size: cover;
+	margin-left: 0;
+	width: 100%;
+	height: 600px;
+}
+
+.navbar-dark .navbar-nav .nav-link ,.navbar-dark .navbar-toggler{
+	color: #000;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.heart{
+	color: 	#e31b23;
+}
+
+.phone_icon{
+	font-size: 50px;
+	color: #32CD32;
+}
+.whatsapp_icon{
+	font-size: 50px;
+	color: #25D366;	
+}
+
+/*media 1200 990 768 576*/
+
+@media  (min-width: 100px) and (max-width: 491px){
+	header.miri-ui-kit-header.header-bg-2 {
+			height: 200px;
+		}
+	.count-card {
+		height: 400px;
+		}
+}
+
+@media  (min-width: 492px) and (max-width: 575px){
+	header.miri-ui-kit-header.header-bg-2 {
+			height: 300px;
+		}
+	
+	.count-card {
+		height: 500px;
+	}
+}
+
+@media (min-width: 576px) and  (max-width: 767px) {
+	header.miri-ui-kit-header.header-bg-2 {
+		height: 400px;
+	}
+
+	.count-card {
+		height: 600px;
+	}
+}
+
+
+@media (min-width: 768px) and  (max-width: 989px) {
+	.count-card {
+		background-size: contain;
+		height: 459px;
+	}
+}
+
+@media (min-width: 990px) {
+	.count-card {
+		width: 600px;
+		background-size: cover;
+		
+	}
+
+	.miri-ui-kit-header{
+		height: 650px;
+	}
+}
+
