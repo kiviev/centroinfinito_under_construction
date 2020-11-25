@@ -1,6 +1,6 @@
 
 .miri-ui-kit-header.header-bg-2 {
- 	background-image: url(../images/landing_fondo_landscape_2.jpg);
+ 	background-image: url(../images/promo_1.jpg);
 }
 
 .count-card {
@@ -30,6 +30,14 @@
 .whatsapp_icon{
 	font-size: 50px;
 	color: #25D366;	
+}
+
+.emoji{
+	font-size: 25px;
+}
+
+.promo_text p{
+	font-size: 20px;
 }
 
 /*media 1200 990 768 576*/
