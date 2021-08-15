@@ -1,0 +1,31 @@
+
+.miri-ui-kit-header.header-bg-2 {
+ 	background-image: url(../images/oferta_2021.jpg);
+	background-size: cover;
+}
+
+.count-card {
+	background-image: url(../images/horario_2021.jpg);
+
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	background-color: #F3B500;
+}
+
+.header__background img{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.card_sch img{
+	width: 100%;
+	height: auto;
+}
+
+.border_radio{
+	border-radius: 10px;
+}
