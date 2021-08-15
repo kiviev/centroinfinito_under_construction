@@ -18,7 +18,8 @@ RewriteEngine On
 	RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif|css|js|ico|svg) [NC]
 #	RewriteRule .* /under_construction/index.html [R=302,L]
 	
-	RewriteRule .* /landing/public/index.html [R=302,L]
+#	RewriteRule .* /landing/public/index.html [R=302,L]
+	RewriteRule .* /landing/public/2021anniversary/index.html [R=302,L]
 </IfModule>
 
 
